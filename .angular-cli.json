@@ -1,7 +1,11 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
+<<<<<<< HEAD
     "name": "AnagraficaFE"
+=======
+    "name": "anagrafica-fe"
+>>>>>>> branch 'master' of https://github.com/cardinal76/AnagraficaFE.git
   },
   "apps": [
     {

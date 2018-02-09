@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import { AnCreateComponent } from './anagrafe/an-create/an-create.component';
 // import { AnListaComponent } from './anagrafe/an-lista/an-lista.component';
 import { BrowserModule } from '@angular/platform-browser';
@@ -26,6 +27,23 @@ import { FormsModule } from '@angular/forms';
   providers: [
 
   ],
+=======
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+
+import { AppComponent } from './app.component';
+
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+>>>>>>> branch 'master' of https://github.com/cardinal76/AnagraficaFE.git
   bootstrap: [AppComponent]
 })
 export class AppModule { }

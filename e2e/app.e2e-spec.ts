@@ -1,6 +1,10 @@
 import { AppPage } from './app.po';
 
+<<<<<<< HEAD
 describe('AnagraficaFE App', () => {
+=======
+describe('anagrafica-fe App', () => {
+>>>>>>> branch 'master' of https://github.com/cardinal76/AnagraficaFE.git
   let page: AppPage;
 
   beforeEach(() => {

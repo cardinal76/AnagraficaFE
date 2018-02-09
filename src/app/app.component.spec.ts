@@ -1,4 +1,5 @@
 import { TestBed, async } from '@angular/core/testing';
+<<<<<<< HEAD
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 describe('AppComponent', () => {
@@ -7,6 +8,12 @@ describe('AppComponent', () => {
       imports: [
         RouterTestingModule
       ],
+=======
+import { AppComponent } from './app.component';
+describe('AppComponent', () => {
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+>>>>>>> branch 'master' of https://github.com/cardinal76/AnagraficaFE.git
       declarations: [
         AppComponent
       ],
