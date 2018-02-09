@@ -6,9 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-<<<<<<< HEAD
-  title = 'Anagrafica';
-=======
-  title = 'app';
->>>>>>> branch 'master' of https://github.com/cardinal76/AnagraficaFE.git
+
+ title = 'Anagrafica';
+
 }
