@@ -8,6 +8,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AnagrafeModule } from './anagrafe/anagrafe.module';
 import { FormsModule } from '@angular/forms';
+import { environment } from '../environments/environment';
+import { HttpClientModule } from '@angular/common/http';
+
 // import { HeroService } from './hero.service';
 // import { HeroesComponent } from './heroes/heroes.component';
 // import { HeroDetailComponent } from './hero-detail/hero-detail.component';
@@ -24,6 +27,8 @@ import { FormsModule } from '@angular/forms';
     FormsModule,
     AnagrafeModule,
      AppRoutingModule,
+     HttpClientModule
+
   ],
   providers: [
 
