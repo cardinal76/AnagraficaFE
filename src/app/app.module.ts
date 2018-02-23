@@ -11,16 +11,16 @@ import { FormsModule } from '@angular/forms';
 import { environment } from '../environments/environment';
 import { HttpClientModule } from '@angular/common/http';
 
-// import { HeroService } from './hero.service';
-// import { HeroesComponent } from './heroes/heroes.component';
-// import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+ import { HeroService } from './hero.service';
+ import { HeroesComponent } from './heroes/heroes.component';
+ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-  //  HeroesComponent,
-  //  HeroDetailComponent
+    HeroesComponent,
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule,
