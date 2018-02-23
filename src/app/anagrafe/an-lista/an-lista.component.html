@@ -1,3 +1,9 @@
-<p>
-  an-lista works!
-</p>
+<div *ngIf="anagraficaModel">
+	<h2>Lista Condomini</h2>
+	<ul class="heroes">
+	  <li *ngFor="let hero of anagraficaModel">
+	    <span class="badge">{{hero.nome}}</span> {{hero.cognome}}
+	  </li>
+	</ul>
+</div>
+
