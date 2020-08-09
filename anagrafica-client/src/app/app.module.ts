@@ -37,6 +37,6 @@ import { ListComponent } from './list/list.component';
     MatListModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [HomeComponent]
 })
 export class AppModule { }
